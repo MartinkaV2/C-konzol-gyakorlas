@@ -1,0 +1,7 @@
+C:\Users\Martin\source\repos\Filmadatbazis\bin\Debug\Filmadatbazis.exe.config
+C:\Users\Martin\source\repos\Filmadatbazis\bin\Debug\Filmadatbazis.exe
+C:\Users\Martin\source\repos\Filmadatbazis\bin\Debug\Filmadatbazis.pdb
+C:\Users\Martin\source\repos\Filmadatbazis\obj\Debug\Filmadatbazis.csproj.AssemblyReference.cache
+C:\Users\Martin\source\repos\Filmadatbazis\obj\Debug\Filmadatbazis.csproj.CoreCompileInputs.cache
+C:\Users\Martin\source\repos\Filmadatbazis\obj\Debug\Filmadatbazis.exe
+C:\Users\Martin\source\repos\Filmadatbazis\obj\Debug\Filmadatbazis.pdb
