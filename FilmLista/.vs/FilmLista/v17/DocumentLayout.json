@@ -1,0 +1,201 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Martin\\source\\repos\\FilmLista\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{51813131-8D10-4CA2-83C2-EFF32B61E79A}|FilmLista.csproj|c:\\users\\martin\\source\\repos\\filmlista\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{51813131-8D10-4CA2-83C2-EFF32B61E79A}|FilmLista.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51813131-8D10-4CA2-83C2-EFF32B61E79A}|FilmLista.csproj|c:\\users\\martin\\source\\repos\\filmlista\\controllers\\filmekcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51813131-8D10-4CA2-83C2-EFF32B61E79A}|FilmLista.csproj|solutionrelative:controllers\\filmekcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51813131-8D10-4CA2-83C2-EFF32B61E79A}|FilmLista.csproj|c:\\users\\martin\\source\\repos\\filmlista\\filmlista.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{51813131-8D10-4CA2-83C2-EFF32B61E79A}|FilmLista.csproj|solutionrelative:filmlista.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Martin\\source\\repos\\FilmLista\\Migrations\\20260311084958_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20260311084958_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51813131-8D10-4CA2-83C2-EFF32B61E79A}|FilmLista.csproj|c:\\users\\martin\\source\\repos\\filmlista\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51813131-8D10-4CA2-83C2-EFF32B61E79A}|FilmLista.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51813131-8D10-4CA2-83C2-EFF32B61E79A}|FilmLista.csproj|c:\\users\\martin\\source\\repos\\filmlista\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{51813131-8D10-4CA2-83C2-EFF32B61E79A}|FilmLista.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Martin\\source\\repos\\FilmLista\\Migrations\\20260311084549_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20260311084549_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51813131-8D10-4CA2-83C2-EFF32B61E79A}|FilmLista.csproj|c:\\users\\martin\\source\\repos\\filmlista\\data\\filmcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51813131-8D10-4CA2-83C2-EFF32B61E79A}|FilmLista.csproj|solutionrelative:data\\filmcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51813131-8D10-4CA2-83C2-EFF32B61E79A}|FilmLista.csproj|c:\\users\\martin\\source\\repos\\filmlista\\filmlista.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{51813131-8D10-4CA2-83C2-EFF32B61E79A}|FilmLista.csproj|solutionrelative:filmlista.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51813131-8D10-4CA2-83C2-EFF32B61E79A}|FilmLista.csproj|c:\\users\\martin\\source\\repos\\filmlista\\models\\film.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51813131-8D10-4CA2-83C2-EFF32B61E79A}|FilmLista.csproj|solutionrelative:models\\film.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Martin\\source\\repos\\FilmLista\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Martin\\source\\repos\\FilmLista\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-11T08:55:05.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FilmekController.cs",
+              "DocumentMoniker": "C:\\Users\\Martin\\source\\repos\\FilmLista\\Controllers\\FilmekController.cs",
+              "RelativeDocumentMoniker": "Controllers\\FilmekController.cs",
+              "ToolTip": "C:\\Users\\Martin\\source\\repos\\FilmLista\\Controllers\\FilmekController.cs",
+              "RelativeToolTip": "Controllers\\FilmekController.cs",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAkwGsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T08:51:07.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "20260311084958_Initial.cs",
+              "DocumentMoniker": "C:\\Users\\Martin\\source\\repos\\FilmLista\\Migrations\\20260311084958_Initial.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260311084958_Initial.cs",
+              "ToolTip": "C:\\Users\\Martin\\source\\repos\\FilmLista\\Migrations\\20260311084958_Initial.cs",
+              "RelativeToolTip": "Migrations\\20260311084958_Initial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T08:49:59.002Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20260311084549_Initial.cs",
+              "DocumentMoniker": "C:\\Users\\Martin\\source\\repos\\FilmLista\\Migrations\\20260311084549_Initial.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260311084549_Initial.cs",
+              "ToolTip": "C:\\Users\\Martin\\source\\repos\\FilmLista\\Migrations\\20260311084549_Initial.cs",
+              "RelativeToolTip": "Migrations\\20260311084549_Initial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T08:45:49.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FilmLista",
+              "DocumentMoniker": "C:\\Users\\Martin\\source\\repos\\FilmLista\\FilmLista.csproj",
+              "RelativeDocumentMoniker": "FilmLista.csproj",
+              "ToolTip": "C:\\Users\\Martin\\source\\repos\\FilmLista\\FilmLista.csproj",
+              "RelativeToolTip": "FilmLista.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-11T08:39:55.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Martin\\source\\repos\\FilmLista\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Martin\\source\\repos\\FilmLista\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T08:40:05.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FilmLista",
+              "DocumentMoniker": "C:\\Users\\Martin\\source\\repos\\FilmLista\\FilmLista.csproj",
+              "RelativeDocumentMoniker": "FilmLista.csproj",
+              "ToolTip": "C:\\Users\\Martin\\source\\repos\\FilmLista\\FilmLista.csproj",
+              "RelativeToolTip": "FilmLista.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-11T08:39:37.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Martin\\source\\repos\\FilmLista\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Martin\\source\\repos\\FilmLista\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-11T08:39:06.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FilmContext.cs",
+              "DocumentMoniker": "C:\\Users\\Martin\\source\\repos\\FilmLista\\Data\\FilmContext.cs",
+              "RelativeDocumentMoniker": "Data\\FilmContext.cs",
+              "ToolTip": "C:\\Users\\Martin\\source\\repos\\FilmLista\\Data\\FilmContext.cs",
+              "RelativeToolTip": "Data\\FilmContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T08:36:27.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Film.cs",
+              "DocumentMoniker": "C:\\Users\\Martin\\source\\repos\\FilmLista\\Models\\Film.cs",
+              "RelativeDocumentMoniker": "Models\\Film.cs",
+              "ToolTip": "C:\\Users\\Martin\\source\\repos\\FilmLista\\Models\\Film.cs",
+              "RelativeToolTip": "Models\\Film.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T08:27:25.515Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
