@@ -1,0 +1,8 @@
+C:\Users\Martin\Documents\GitHub\C-konzol-gyakorlas\Szamitogep-alkatreszek\bin\Debug\Szamitogep-alkatreszek.exe.config
+C:\Users\Martin\Documents\GitHub\C-konzol-gyakorlas\Szamitogep-alkatreszek\bin\Debug\Szamitogep-alkatreszek.exe
+C:\Users\Martin\Documents\GitHub\C-konzol-gyakorlas\Szamitogep-alkatreszek\bin\Debug\Szamitogep-alkatreszek.pdb
+C:\Users\Martin\Documents\GitHub\C-konzol-gyakorlas\Szamitogep-alkatreszek\obj\Debug\Szamitogep-alkatreszek.csproj.AssemblyReference.cache
+C:\Users\Martin\Documents\GitHub\C-konzol-gyakorlas\Szamitogep-alkatreszek\obj\Debug\Szamitogep-alkatreszek.csproj.CoreCompileInputs.cache
+C:\Users\Martin\Documents\GitHub\C-konzol-gyakorlas\Szamitogep-alkatreszek\obj\Debug\Szamitogep-alkatreszek.exe
+C:\Users\Martin\Documents\GitHub\C-konzol-gyakorlas\Szamitogep-alkatreszek\obj\Debug\Szamitogep-alkatreszek.pdb
+C:\Users\Martin\Documents\GitHub\C-konzol-gyakorlas\Szamitogep-alkatreszek\obj\Debug\Szamitogep-alkatreszek.exe.config
