@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WebStart</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- NAVIGÁCIÓ -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#home">WebStart</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu"
+        aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#home">Főoldal</a></li>
+          <li class="nav-item"><a class="nav-link" href="#services">Szolgáltatások</a></li>
+          <li class="nav-item"><a class="nav-link" href="#pricing">Árak</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Kapcsolat</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- NYITÓ SZAKASZ -->
+  <section id="home" class="hero-section d-flex align-items-center">
+    <div class="container">
+      <div class="row align-items-center gy-5">
+        <div class="col-lg-6">
+          <h1 class="hero-title">Modern és reszponzív weboldalak</h1>
+          <p class="hero-subtitle">
+            Olyan megjelenést varázsolunk bootstrap segítségével, amely mobil, tableten és asztali gépen is tökéletesen működik.
+          </p>
+          <div class="d-flex flex-wrap gap-3 mt-4">
+            <a href="#services" class="btn btn-primary btn-hero">Szolgáltatások</a>
+            <a href="#contact" class="btn btn-outline-light btn-hero">Kapcsolat</a>
+          </div>
+        </div>
+        <div class="col-lg-6 text-center">
+          <img src="https://images.unsplash.com/photo-1547658719-da2b51169166?w=700&q=80"
+               alt="Webfejlesztés" class="hero-img">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SZOLGÁLTATÁSOK -->
+  <section id="services" class="py-5">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 class="section-title">Szolgáltatásaink</h2>
+        <p class="section-subtitle">Három területen, ahol segítünk neked.</p>
+      </div>
+      <div class="row g-4 justify-content-center">
+        <div class="col-md-4">
+          <div class="service-card h-100">
+            <div class="service-icon">🖥️</div>
+            <h5 class="service-card-title">Weboldal készítés</h5>
+            <p class="service-card-text">Egyedi, gyors és keresőoptimalizált weboldalakat készítünk vállalkozásoknak, éttermeknek és személyes brandeknek.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-card h-100">
+            <div class="service-icon">📱</div>
+            <h5 class="service-card-title">Reszponzív design</h5>
+            <p class="service-card-text">Az összes általunk készített oldal teljesen reszponzív, minden eszközön tökéletesen jelenik meg, adatellenőrzéssel együtt.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-card h-100">
+            <div class="service-icon">🔧</div>
+            <h5 class="service-card-title">Karbantartás</h5>
+            <p class="service-card-text">Vállaljuk meglévő weboldalak folyamatos karbantartását, frissítések elvégzését és biztonságossá tételét.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ÁRAK -->
+  <section id="pricing" class="py-5 pricing-section">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 class="section-title">Csomagajánlatok</h2>
+        <p class="section-subtitle">Válaszd ki a számodra megfelelő csomagot.</p>
+      </div>
+      <div class="row g-4 justify-content-center align-items-stretch">
+
+        <!-- Alap -->
+        <div class="col-md-4">
+          <div class="pricing-card h-100">
+            <h5 class="pricing-name">Alap</h5>
+            <div class="pricing-price">19 990 Ft</div>
+            <p class="pricing-desc">Gyors megoldás induló vállalkozásoknak</p>
+            <ul class="pricing-features">
+              <li>1 oldal</li>
+              <li>Reszponzív elrendezés</li>
+              <li>Kapcsolat szakasz</li>
+            </ul>
+            <a href="#contact" class="btn btn-outline-primary mt-auto">Választom</a>
+          </div>
+        </div>
+
+        <!-- Standard – kiemelt -->
+        <div class="col-md-4">
+          <div class="pricing-card pricing-featured h-100">
+            <div class="badge-popular">Legnépszerűbb</div>
+            <h5 class="pricing-name">Standard</h5>
+            <div class="pricing-price">39 990 Ft</div>
+            <p class="pricing-desc">Csúcs érték vállalati weboldalaknál</p>
+            <ul class="pricing-features">
+              <li>Akár 5 oldal</li>
+              <li>Reszponzív design</li>
+              <li>Kapcsolati űrlap</li>
+              <li>Bootstrap komponensek</li>
+            </ul>
+            <a href="#contact" class="btn btn-primary mt-auto">Választom</a>
+          </div>
+        </div>
+
+        <!-- Prémium -->
+        <div class="col-md-4">
+          <div class="pricing-card h-100">
+            <h5 class="pricing-name">Prémium</h5>
+            <div class="pricing-price">79 990 Ft</div>
+            <p class="pricing-desc">Komplex megoldás növekvő cégeknek</p>
+            <ul class="pricing-features">
+              <li>Korlátlan oldal</li>
+              <li>SEO alapcsomag</li>
+              <li>Egyedi animációk</li>
+              <li>Havi karbantartás</li>
+              <li>Prioritásos támogatás</li>
+            </ul>
+            <a href="#contact" class="btn btn-outline-primary mt-auto">Választom</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- KAPCSOLAT -->
+  <section id="contact" class="py-5">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 class="section-title">Kapcsolat</h2>
+        <p class="section-subtitle">Írj nekünk, és hamarosan felvesszük veled a kapcsolatot.</p>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-lg-6 col-md-8">
+          <form class="contact-form">
+            <div class="mb-3">
+              <label for="name" class="form-label">Név</label>
+              <input type="text" class="form-control" id="name" placeholder="Teljes neve">
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">E-mail cím</label>
+              <input type="email" class="form-control" id="email" placeholder="pelda@mail.com">
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Üzenet</label>
+              <textarea class="form-control" id="message" rows="4" placeholder="Írja ide üzenetét..."></textarea>
+            </div>
+            <div class="d-grid">
+              <button type="submit" class="btn btn-primary btn-submit">Küldés</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LÁBLÉC -->
+  <footer class="footer-section py-4">
+    <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-3">
+      <p class="mb-0 footer-copy">© 2025 WebStart. Minden jog fenntartva.</p>
+      <div class="d-flex gap-4">
+        <a href="https://facebook.com" target="_blank" class="footer-link">Facebook</a>
+        <a href="https://instagram.com" target="_blank" class="footer-link">Instagram</a>
+        <a href="https://linkedin.com" target="_blank" class="footer-link">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
