@@ -33,7 +33,7 @@ h1, h2, h3, h4, h5, h6 { font-family: var(--font-head); }
 
 /* ---------- Navbar ---------- */
 #mainNav {
-  background: rgba(26, 86, 219, 0.97);
+  background: rgba(27, 27, 27, 0.97);
   backdrop-filter: blur(12px);
   transition: background .3s;
 }

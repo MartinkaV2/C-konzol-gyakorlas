@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LinuxVilág – Ismerd meg a legjobb disztrókat</title>
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet" />
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ░░░ NAVBAR ░░░ -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top lv-navbar">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center gap-2" href="#">
+        <span class="lv-brand-text">Linux<span class="lv-accent">Világ</span></span>
+      </a>
+      <button class="navbar-toggler border-0" type="button"
+              data-bs-toggle="collapse" data-bs-target="#navMenu"
+              aria-controls="navMenu" aria-expanded="false" aria-label="Menü">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto gap-lg-2">
+          <li class="nav-item"><a class="nav-link" href="#distrok"><i class="bi bi-grid-3x3-gap me-1"></i>Disztrók</a></li>
+          <li class="nav-item"><a class="nav-link" href="#osszehasonlitas"><i class="bi bi-bar-chart-line me-1"></i>Összehasonlítás</a></li>
+          <li class="nav-item"><a class="nav-link" href="#kapcsolat"><i class="bi bi-envelope me-1"></i>Kapcsolat</a></li>
+          <li class="nav-item ms-lg-2">
+            <a class="btn lv-btn-nav" href="#distrok"><i class="bi bi-download me-1"></i>Töltsd le</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <!-- MAIN -->
+  <main>
+
+    <!-- DISZTRÓK KÁRTYÁK -->
+    <section id="distrok" class="py-5 lv-section">
+      <div class="container">
+        <div class="text-center mb-5 mt-4 pt-3">
+          <h2 class="lv-section-title">Népszerű disztrók</h2>
+          <p class="lv-section-sub">Válaszd ki az igényeidhez leginkább illő rendszert</p>
+        </div>
+
+        <div class="row g-4">
+
+          <!-- Ubuntu -->
+          <div class="col-sm-6 col-lg-4">
+            <div class="lv-card" data-color="#E95420">
+              <div class="lv-card-top">
+                <div class="lv-card-icon-wrap" style="--c:#E95420">
+                  <i class="bi bi-ubuntu"></i>
+                </div>
+                <span class="lv-card-badge">Kezdőknek</span>
+              </div>
+              <h3 class="lv-card-title">Ubuntu</h3>
+              <p class="lv-card-desc">A világ legnépszerűbb Linux disztrója. Hatalmas közösség, rengeteg dokumentáció, könnyen telepíthető.</p>
+              <div class="lv-card-tags">
+                <span><i class="bi bi-tag-fill me-1"></i>GNOME</span>
+                <span><i class="bi bi-hdd me-1"></i>Debian alapú</span>
+                <span><i class="bi bi-box2"></i> Snap csomagkezelő</span>
+              </div>
+              <a href="https://ubuntu.com" target="_blank" class="lv-card-link">
+                Weboldal <i class="bi bi-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Fedora -->
+          <div class="col-sm-6 col-lg-4">
+            <div class="lv-card" data-color="#294172">
+              <div class="lv-card-top">
+                <div class="lv-card-icon-wrap" style="--c:#294172">
+                  <img src="https://www.marefa.org/w/images/thumb/4/41/Fedora_icon_(2021).svg/1200px-Fedora_icon_(2021).svg.png" alt="Fedora" class="lv-distro-img" />
+                </div>
+                <span class="lv-card-badge lv-badge-blue">Haladóknak</span>
+              </div>
+              <h3 class="lv-card-title">Fedora</h3>
+              <p class="lv-card-desc">A Red Hat által támogatott disztró, ahol mindig a legújabb technológiák jelennek meg először.</p>
+              <div class="lv-card-tags">
+                <span><i class="bi bi-tag-fill me-1"></i>GNOME</span>
+                <span><i class="bi bi-hdd me-1"></i>RPM alapú</span>
+                <span><i class="bi bi-lightning-fill me-1"></i>Rolling</span>
+              </div>
+              <a href="https://fedoraproject.org" target="_blank" class="lv-card-link">
+                Weboldal <i class="bi bi-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Arch Linux -->
+          <div class="col-sm-6 col-lg-4">
+            <div class="lv-card" data-color="#1793D1">
+              <div class="lv-card-top">
+                <div class="lv-card-icon-wrap" style="--c:#1793D1">
+                  <img src="https://cdn0.iconfinder.com/data/icons/flat-round-system/512/archlinux-512.png" alt="Arch Linux" class="lv-distro-img" />
+                </div>
+                <span class="lv-card-badge lv-badge-cyan">Profiknak</span>
+              </div>
+              <h3 class="lv-card-title">Arch Linux</h3>
+              <p class="lv-card-desc">„Csináld magad" elvű, ultra-minimalista disztró. Teljesen a saját kezedbe veszed a rendszer irányítását.</p>
+              <div class="lv-card-tags">
+                <span><i class="bi bi-tag-fill me-1"></i>Tetszőleges DE</span>
+                <span><i class="bi bi-hdd me-1"></i>Pacman</span>
+                <span><i class="bi bi-wrench-adjustable me-1"></i>Rolling</span>
+              </div>
+              <a href="https://archlinux.org" target="_blank" class="lv-card-link">
+                Weboldal <i class="bi bi-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Linux Mint -->
+          <div class="col-sm-6 col-lg-4">
+            <div class="lv-card" data-color="#87CF3E">
+              <div class="lv-card-top">
+                <div class="lv-card-icon-wrap" style="--c:#87CF3E">
+                  <img src="https://cdn0.iconfinder.com/data/icons/flat-round-system/512/linux_mint-512.png" alt="Linux Mint" class="lv-distro-img" />
+                </div>
+                <span class="lv-card-badge lv-badge-green">Kezdőknek</span>
+              </div>
+              <h3 class="lv-card-title">Linux Mint</h3>
+              <p class="lv-card-desc">Windows-ismerős felület, könnyű kezelhetőség, stabil rendszer – tökéletes átálláshoz Windows-ról.</p>
+              <div class="lv-card-tags">
+                <span><i class="bi bi-tag-fill me-1"></i>Cinnamon DE</span>
+                <span><i class="bi bi-hdd me-1"></i>Ubuntu alapú</span>
+                <span><i class="bi bi-shield-check me-1"></i>Stabil</span>
+              </div>
+              <a href="https://linuxmint.com" target="_blank" class="lv-card-link">
+                Weboldal <i class="bi bi-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Debian -->
+          <div class="col-sm-6 col-lg-4">
+            <div class="lv-card" data-color="#A80030">
+              <div class="lv-card-top">
+                <div class="lv-card-icon-wrap" style="--c:#A80030">
+                  <img src="https://cdn0.iconfinder.com/data/icons/flat-round-system/512/debian-1024.png" alt="Debian" class="lv-distro-img" />
+                </div>
+                <span class="lv-card-badge lv-badge-red">Szerverekhez</span>
+              </div>
+              <h3 class="lv-card-title">Debian</h3>
+              <p class="lv-card-desc">A stabilitás szimbóluma. Több mint 30 éve tartja a minőséget – sok disztró alapja, köztük az Ubuntu is.</p>
+              <div class="lv-card-tags">
+                <span><i class="bi bi-tag-fill me-1"></i> Tetszőleges DE</span>
+                <span><i class="bi bi-hdd me-1"></i> APT csomagkezelő</span>
+                <span><i class="bi bi-hdd-fill"></i> Szerver</span>
+              </div>
+              <a href="https://debian.org" target="_blank" class="lv-card-link">
+                Weboldal <i class="bi bi-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Manjaro -->
+          <div class="col-sm-6 col-lg-4">
+            <div class="lv-card" data-color="#35BF5C">
+              <div class="lv-card-top">
+                <div class="lv-card-icon-wrap" style="--c:#35BF5C">
+                  <img src="https://logodix.com/logo/675587.png" alt="Manjaro" class="lv-distro-img" />
+                </div>
+                <span class="lv-card-badge lv-badge-green">Közepes szint</span>
+              </div>
+              <h3 class="lv-card-title">Manjaro</h3>
+              <p class="lv-card-desc">Az Arch erejét felhasználóbarát köntösbe öltözteti. Rolling release, de kényelmes telepítő és GUI-val.</p>
+              <div class="lv-card-tags">
+                <span><i class="bi bi-tag-fill me-1"></i>KDE / XFCE</span>
+                <span><i class="bi bi-hdd me-1"></i>Arch alapú</span>
+                <span><i class="bi bi-lightning-fill me-1"></i>Rolling</span>
+              </div>
+              <a href="https://manjaro.org" target="_blank" class="lv-card-link">
+                Weboldal <i class="bi bi-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- TIPP SZEKCIÓ -->
+    <section class="py-5 lv-section">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="lv-tip-card">
+              <i class="bi bi-cpu-fill lv-tip-icon"></i>
+              <h4>Gyenge gépre</h4>
+              <p>Ha régi a hardvered, próbáld ki a <strong>Lubuntu</strong> vagy <strong>Xubuntu</strong> disztrókat – ezek alig igényelnek erőforrást.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="lv-tip-card">
+              <i class="bi bi-controller lv-tip-icon"></i>
+              <h4>Gamereknek</h4>
+              <p>A <strong>Nobara Linux</strong> , <strong>Garuda Linux</strong> vagy a <strong>CachyOS</strong> kifejezetten játékokhoz van optimalizálva, Steam és Proton előre telepítve.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="lv-tip-card">
+              <i class="bi bi-shield-fill-exclamation lv-tip-icon"></i>
+              <h4>Adatvédelemért</h4>
+              <p>Ha az anonimitás a cél, <strong>Tails OS</strong> vagy <strong>Whonix</strong> az ideális választás – Tor-hálózaton futnak.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ░░░ FOOTER ░░░ -->
+  <footer id="kapcsolat" class="lv-footer pt-5 pb-3">
+    <div class="container">
+      <div class="row gy-4">
+        <div class="col-lg-4">
+          <div class="d-flex align-items-center gap-2 mb-3">
+            <i class="bi bi-terminal-fill lv-brand-icon"></i>
+            <span class="lv-brand-text fs-4">Linux<span class="lv-accent">Világ</span></span>
+          </div>
+          <p class="lv-footer-desc">A szabad szoftverek és a nyílt forráskód iránt elkötelezett közösség portálja.</p>
+          <div class="d-flex gap-3 mt-3">
+            <a href="#" class="lv-social-icon" title="GitHub"><i class="bi bi-github"></i></a>
+            <a href="#" class="lv-social-icon" title="Twitter/X"><i class="bi bi-twitter-x"></i></a>
+            <a href="#" class="lv-social-icon" title="Mastodon"><i class="bi bi-mastodon"></i></a>
+            <a href="#" class="lv-social-icon" title="YouTube"><i class="bi bi-youtube"></i></a>
+          </div>
+        </div>
+        <div class="col-6 col-lg-2 offset-lg-1">
+          <h6 class="lv-footer-heading">Disztrók</h6>
+          <ul class="lv-footer-links">
+            <li><a href="#">Ubuntu</a></li>
+            <li><a href="#">Fedora</a></li>
+            <li><a href="#">Arch Linux</a></li>
+            <li><a href="#">Debian</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-lg-2">
+          <h6 class="lv-footer-heading">Kategóriák</h6>
+          <ul class="lv-footer-links">
+            <li><a href="#">Kezdőknek</a></li>
+            <li><a href="#">Haladóknak</a></li>
+            <li><a href="#">Szerverek</a></li>
+            <li><a href="#">Gaming</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3">
+          <h6 class="lv-footer-heading">Kapcsolat</h6>
+          <ul class="lv-footer-links">
+            <li><i class="bi bi-envelope me-2"></i>info@linuxvilag.hu</li>
+            <li><i class="bi bi-chat-dots me-2"></i>Discord közösség</li>
+            <li><i class="bi bi-rss me-2"></i>RSS feed</li>
+          </ul>
+        </div>
+      </div>
+      <hr class="lv-footer-hr mt-4" />
+      <div class="d-flex flex-wrap justify-content-between align-items-center gap-2">
+        <p class="lv-footer-copy mb-0">© 2026 LinuxVilág – Minden jog fenntartva</p>
+        <p class="lv-footer-copy mb-0"> Készítette: Martin Medvecz</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

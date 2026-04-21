@@ -1,0 +1,338 @@
+/* =====================================================
+   LinuxVilág – style.css
+   Téma: Terminal-sötét + neon-narancs/kék akcentusok
+   ===================================================== */
+
+/* ---------- CSS VÁLTOZÓK ---------- */
+:root {
+  --bg-dark:     #0d0f14;
+  --bg-card:     #13161e;
+  --bg-dark-alt: #10131a;
+  --surface:     #1a1e2a;
+  --border:      rgba(255,255,255,0.07);
+
+  --accent:      #F97316;   /* neon narancs */
+  --accent-2:    #38BDF8;   /* égszínkék    */
+  --accent-glow: rgba(249,115,22,.35);
+
+  --text:        #e2e8f0;
+  --text-muted:  #64748b;
+  --text-light:  #94a3b8;
+
+  --font-head:   'Syne', sans-serif;
+  --font-mono:   'Space Mono', monospace;
+
+  --radius:      14px;
+  --radius-sm:   8px;
+  --trans:       .3s ease;
+}
+
+/* ---------- ALAP ---------- */
+*, *::before, *::after { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: var(--font-mono);
+  background-color: var(--bg-dark);
+  color: var(--text);
+  line-height: 1.7;
+  overflow-x: hidden;
+}
+
+/* ---------- ACCENT ---------- */
+.lv-accent { color: var(--accent); }
+
+/* ============================================================
+   NAVBAR
+   ============================================================ */
+.lv-navbar {
+  background: rgba(13,15,20,.85);
+  backdrop-filter: blur(14px);
+  border-bottom: 1px solid var(--border);
+  transition: background var(--trans);
+}
+.lv-navbar .nav-link {
+  color: var(--text-light) !important;
+  font-size: .875rem;
+  letter-spacing: .04em;
+  transition: color var(--trans);
+}
+.lv-navbar .nav-link:hover { color: var(--accent) !important; }
+
+.lv-brand-icon { color: var(--accent); font-size: 1.4rem; }
+.lv-brand-text  { font-family: var(--font-head); font-weight: 800; font-size: 1.25rem; letter-spacing: -.01em; }
+
+.lv-btn-nav {
+  background: transparent;
+  border: 1px solid var(--accent);
+  color: var(--accent) !important;
+  border-radius: 50px;
+  padding: .35rem 1.1rem;
+  font-size: .875rem;
+  font-family: var(--font-mono);
+  transition: background var(--trans), color var(--trans);
+}
+.lv-btn-nav:hover {
+  background: var(--accent);
+  color: #fff !important;
+}
+
+/* ============================================================
+   SECTION HEADINGS
+   ============================================================ */
+.lv-section      { background: var(--bg-dark); }
+.lv-section-dark { background: var(--bg-dark-alt); }
+
+.lv-section-title {
+  font-family: var(--font-head);
+  font-weight: 800;
+  font-size: clamp(1.8rem, 4vw, 2.8rem);
+  color: var(--text);
+}
+.lv-section-title.lv-light { color: var(--text); }
+
+.lv-section-sub       { color: var(--text-muted); font-size: .95rem; }
+.lv-section-sub.lv-light { color: var(--text-light); }
+
+/* ============================================================
+   KÁRTYÁK
+   ============================================================ */
+.lv-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.75rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: .75rem;
+  position: relative;
+  overflow: hidden;
+  transition: transform var(--trans), box-shadow var(--trans), border-color var(--trans);
+}
+
+/* hover glow uses data-color set in HTML */
+.lv-card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: var(--radius);
+  background: radial-gradient(ellipse 80% 60% at 50% 0%, rgba(255,255,255,.03), transparent 70%);
+  pointer-events: none;
+}
+
+.lv-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 24px 48px rgba(0,0,0,.4);
+  border-color: rgba(255,255,255,.14);
+}
+
+.lv-card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.lv-card-icon-wrap {
+  width: 48px; height: 48px;
+  border-radius: var(--radius-sm);
+  background: color-mix(in srgb, var(--c) 15%, transparent);
+  border: 1px solid color-mix(in srgb, var(--c) 30%, transparent);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 1.5rem;
+  color: var(--c);
+}
+
+.lv-distro-img {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+}
+
+.lv-card-badge {
+  font-size: .7rem;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  padding: .25rem .7rem;
+  border-radius: 50px;
+  background: rgba(249,115,22,.12);
+  border: 1px solid rgba(249,115,22,.3);
+  color: var(--accent);
+  font-family: var(--font-mono);
+  white-space: nowrap;
+}
+.lv-badge-blue  { background: rgba(56,189,248,.1); border-color: rgba(56,189,248,.3); color: var(--accent-2); }
+.lv-badge-cyan  { background: rgba(56,189,248,.1); border-color: rgba(56,189,248,.3); color: var(--accent-2); }
+.lv-badge-green { background: rgba(52,211,153,.1); border-color: rgba(52,211,153,.3); color: #34D399; }
+.lv-badge-red   { background: rgba(248,113,113,.1); border-color: rgba(248,113,113,.3); color: #F87171; }
+
+.lv-card-title {
+  font-family: var(--font-head);
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: var(--text);
+  margin: 0;
+}
+
+.lv-card-desc {
+  color: var(--text-light);
+  font-size: .875rem;
+  flex-grow: 1;
+  margin: 0;
+}
+
+.lv-card-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .45rem;
+}
+.lv-card-tags span {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 50px;
+  font-size: .72rem;
+  padding: .2rem .65rem;
+  color: var(--text-muted);
+}
+
+.lv-card-link {
+  display: inline-flex;
+  align-items: center;
+  gap: .4rem;
+  color: var(--accent-2);
+  font-size: .85rem;
+  text-decoration: none;
+  margin-top: auto;
+  transition: gap var(--trans), color var(--trans);
+}
+.lv-card-link:hover { gap: .7rem; color: var(--accent); }
+
+/* ============================================================
+   TABLE
+   ============================================================ */
+.lv-table {
+  border-collapse: separate;
+  border-spacing: 0;
+  width: 100%;
+  color: var(--text-light);
+  font-size: .875rem;
+}
+.lv-table thead tr {
+  background: var(--surface);
+}
+.lv-table th {
+  color: var(--accent);
+  font-size: .78rem;
+  text-transform: uppercase;
+  letter-spacing: .07em;
+  padding: .9rem 1rem;
+  border-bottom: 1px solid var(--border);
+  font-weight: 700;
+}
+.lv-table td {
+  padding: .8rem 1rem;
+  border-bottom: 1px solid var(--border);
+  vertical-align: middle;
+  font-family: var(--font-mono);
+}
+.lv-table tbody tr {
+  background: var(--bg-card);
+  transition: background var(--trans);
+}
+.lv-table tbody tr:hover { background: var(--surface); }
+
+/* ============================================================
+   TIPP KÁRTYÁK
+   ============================================================ */
+.lv-tip-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 2rem 1.5rem;
+  height: 100%;
+  transition: transform var(--trans), border-color var(--trans);
+}
+.lv-tip-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(249,115,22,.3);
+}
+.lv-tip-icon {
+  font-size: 2rem;
+  color: var(--accent);
+  display: block;
+  margin-bottom: .75rem;
+}
+.lv-tip-card h4 {
+  font-family: var(--font-head);
+  font-size: 1.1rem;
+  color: var(--text);
+  margin-bottom: .5rem;
+}
+.lv-tip-card p { color: var(--text-light); font-size: .875rem; margin: 0; }
+.lv-tip-card strong { color: var(--accent-2); }
+
+/* ============================================================
+   FOOTER
+   ============================================================ */
+.lv-footer {
+  background: var(--bg-dark-alt);
+  border-top: 1px solid var(--border);
+}
+.lv-footer-heading {
+  font-family: var(--font-head);
+  font-weight: 700;
+  font-size: .8rem;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  color: var(--accent);
+  margin-bottom: .85rem;
+}
+.lv-footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+.lv-footer-links li, .lv-footer-links a {
+  color: var(--text-muted);
+  text-decoration: none;
+  font-size: .875rem;
+  transition: color var(--trans);
+}
+.lv-footer-links a:hover { color: var(--accent); }
+
+.lv-footer-desc { color: var(--text-muted); font-size: .875rem; max-width: 280px; }
+.lv-footer-copy { color: var(--text-muted); font-size: .8rem; }
+.lv-footer-hr   { border-color: var(--border); }
+
+.lv-social-icon {
+  color: var(--text-muted);
+  font-size: 1.2rem;
+  text-decoration: none;
+  transition: color var(--trans), transform var(--trans);
+  display: inline-block;
+}
+.lv-social-icon:hover { color: var(--accent); transform: translateY(-3px); }
+
+/* ============================================================
+   RESZPONZÍV
+   ============================================================ */
+@media (max-width: 991px) {
+  .lv-hero { padding-top: 6rem; }
+  .lv-hero-art { width: 220px; height: 220px; }
+  .lv-orbit-3 { width: 220px; height: 220px; }
+  .lv-orbit-2 { width: 170px; height: 170px; }
+  .lv-orbit-1 { width: 120px; height: 120px; }
+  .lv-hero-icon { font-size: 5rem; }
+}
+
+@media (max-width: 575px) {
+  .lv-hero { padding-top: 5rem; padding-bottom: 2rem; }
+  .lv-hero-art { display: none; }
+  .lv-section-title { font-size: 1.75rem; }
+  .lv-table { font-size: .75rem; }
+  .lv-table th, .lv-table td { padding: .6rem .6rem; }
+}
