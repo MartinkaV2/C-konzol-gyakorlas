@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap');
+
+:root {
+  --accent:   #e50914;
+  --nav-bg:   #111111;
+  --card-bg:  #1a1a1a;
+  --body-bg:  #0d0d0d;
+  --text-muted-custom: #888;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--body-bg);
+  color: #e8e8e8;
+  font-family: 'Open Sans', sans-serif;
+  min-height: 100vh;
+}
+
+/* ── scrollbar ── */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: #111; }
+::-webkit-scrollbar-thumb { background: var(--accent); border-radius: 3px; }
+
+/* ── utility ── */
+.font-oswald { font-family: 'Oswald', sans-serif; }
+
+.accent-divider {
+  width: 56px;
+  height: 4px;
+  background: var(--accent);
+  border-radius: 2px;
+  margin: 16px 0;
+}
+
+/* ── Buttons ── */
+.btn-accent {
+  background-color: var(--accent);
+  color: #fff;
+  border: none;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: .5px;
+  transition: background .2s, transform .15s;
+}
+.btn-accent:hover {
+  background-color: #ff2030;
+  color: #fff;
+  transform: scale(1.04);
+}
