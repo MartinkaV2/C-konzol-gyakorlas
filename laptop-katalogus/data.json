@@ -1,0 +1,52 @@
+{
+  "laptops": [
+    {
+      "id": 1,
+      "brand": "Apple",
+      "model": "MacBook Air M2",
+      "category": "Ultrabook",
+      "priceHuf": 549000,
+      "imageUrl": "https://photos5.appleinsider.com/price_guide/macbook-air-m2-midnight-pp-header.png"
+    },
+    {
+      "id": 2,
+      "brand": "Lenovo",
+      "model": "ThinkPad X1 Carbon",
+      "category": "Üzleti",
+      "priceHuf": 489000,
+      "imageUrl": "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?w=400"
+    },
+    {
+      "id": 3,
+      "brand": "Dell",
+      "model": "XPS 15",
+      "category": "Kreatív",
+      "priceHuf": 679000,
+      "imageUrl": "https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=400"
+    },
+    {
+      "id": 4,
+      "brand": "ASUS",
+      "model": "ROG Zephyrus G14",
+      "category": "Gamer",
+      "priceHuf": 599000,
+      "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=400"
+    },
+    {
+      "id": 5,
+      "brand": "HP",
+      "model": "Spectre x360",
+      "category": "2 az 1-ben",
+      "priceHuf": 459000,
+      "imageUrl": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=400"
+    },
+    {
+      "id": 6,
+      "brand": "Microsoft",
+      "model": "Surface Laptop 5",
+      "category": "Ultrabook",
+      "priceHuf": 519000,
+      "imageUrl": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=400"
+    }
+  ]
+}
