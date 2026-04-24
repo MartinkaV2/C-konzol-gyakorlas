@@ -1,0 +1,52 @@
+{
+  "runningShoes": [
+    {
+      "id": 1,
+      "brand": "Nike",
+      "model": "Air Zoom Pegasus 40",
+      "category": "Mindennapi edzés",
+      "priceHuf": 42990,
+      "imageUrl": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400"
+    },
+    {
+      "id": 2,
+      "brand": "Adidas",
+      "model": "Ultraboost 23",
+      "category": "Hosszútáv",
+      "priceHuf": 54990,
+      "imageUrl": "https://images.unsplash.com/photo-1608231387042-66d1773070a5?w=400"
+    },
+    {
+      "id": 3,
+      "brand": "ASICS",
+      "model": "Gel-Kayano 30",
+      "category": "Stabilizáló",
+      "priceHuf": 49990,
+      "imageUrl": "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=400"
+    },
+    {
+      "id": 4,
+      "brand": "New Balance",
+      "model": "Fresh Foam X 1080v13",
+      "category": "Maximális párnázás",
+      "priceHuf": 57990,
+      "imageUrl": "https://images.unsplash.com/photo-1539185441755-769473a23570?w=400"
+    },
+    {
+      "id": 5,
+      "brand": "Brooks",
+      "model": "Ghost 15",
+      "category": "Mindennapi edzés",
+      "priceHuf": 44990,
+      "imageUrl": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=400"
+    },
+    {
+      "id": 6,
+      "brand": "Saucony",
+      "model": "Ride 16",
+      "category": "Hosszútáv",
+      "priceHuf": 39990,
+      "imageUrl": "https://images.unsplash.com/photo-1560769629-975ec94e6a86?w=400"
+    }
+  ]
+}
