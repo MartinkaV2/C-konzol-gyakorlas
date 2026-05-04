@@ -1,0 +1,58 @@
+<Window x:Class="JegyertekesitoGUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Jegyértékesítő GUI"
+        Height="480" Width="680"
+        WindowStartupLocation="CenterScreen">
+
+    <Grid Margin="12">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="12"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- Táblázat -->
+        <DataGrid x:Name="dgJegyek"
+                  Grid.Row="0"
+                  AutoGenerateColumns="False"
+                  IsReadOnly="True"
+                  SelectionMode="Single"
+                  CanUserAddRows="False"
+                  CanUserDeleteRows="False"
+                  AlternatingRowBackground="#F5F5F5"
+                  GridLinesVisibility="Horizontal">
+
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="ID"        Binding="{Binding Id}"        Width="50"/>
+                <DataGridTextColumn Header="Név"       Binding="{Binding Nev}"       Width="*"/>
+                <DataGridTextColumn Header="Ár (Ft)"   Width="120"
+                    Binding="{Binding Ar, StringFormat={}{0:N0} Ft}">
+                    <DataGridTextColumn.ElementStyle>
+                        <Style TargetType="TextBlock">
+                            <Setter Property="TextAlignment" Value="Right"/>
+                            <Setter Property="Padding" Value="0,0,8,0"/>
+                        </Style>
+                    </DataGridTextColumn.ElementStyle>
+                </DataGridTextColumn>
+                <DataGridTextColumn Header="Darabszám" Binding="{Binding Darabszam}" Width="90">
+                    <DataGridTextColumn.ElementStyle>
+                        <Style TargetType="TextBlock">
+                            <Setter Property="TextAlignment" Value="Center"/>
+                        </Style>
+                    </DataGridTextColumn.ElementStyle>
+                </DataGridTextColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <!-- Gombok -->
+        <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Right">
+            <Button Content="Hozzáadás"   Width="110" Margin="0,0,8,0"
+                    Click="btnHozzaadas_Click"/>
+            <Button Content="Szerkesztés" Width="110" Margin="0,0,8,0"
+                    Click="btnSzerkesztes_Click"/>
+            <Button Content="Törlés"      Width="90"
+                    Click="btnTorles_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>
