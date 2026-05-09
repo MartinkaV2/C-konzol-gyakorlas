@@ -1,0 +1,144 @@
+/* =============================================
+   RunGear – Futócipő Webshop – style.css
+   ============================================= */
+
+/* Google Fonts fallback */
+body {
+    font-family: 'Barlow', sans-serif;
+    padding-top: 70px; /* navbar fixed-top kompenzáció */
+    background-color: #f8f9fa;
+    color: #1a1a1a;
+}
+
+/* ---- NAVBAR ---- */
+.navbar-brand {
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 1px;
+    font-size: 1.5rem !important;
+}
+
+/* ---- HERO SZEKCIÓ ---- */
+.hero-section {
+    padding: 120px 0 80px;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Gradient háttér */
+.bg-gradient {
+    background: linear-gradient(135deg, #00c853 0%, #00b0ff 100%) !important;
+}
+
+.hero-badge {
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(6px);
+    border: 1px solid rgba(255,255,255,0.35);
+    color: #fff;
+    border-radius: 50px;
+    padding: 6px 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.hero-title {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: clamp(2.2rem, 6vw, 4rem);
+    line-height: 1.05;
+    letter-spacing: -1px;
+    text-shadow: 0 2px 16px rgba(0,0,0,0.15);
+}
+
+.hero-sub {
+    font-size: 1.1rem;
+    opacity: 0.9;
+}
+
+/* ---- SECTION TITLE ---- */
+.section-title {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 2.4rem;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+}
+
+/* ---- TERMÉK KÁRTYÁK ---- */
+.shoe-card {
+    transition: all 0.3s ease;
+    border: none;
+    border-radius: 14px;
+    overflow: hidden;
+    background: #fff;
+}
+
+.shoe-card:hover {
+    transform: translateY(-12px) scale(1.04);
+    box-shadow: 0 20px 30px rgba(0, 200, 83, 0.3) !important;
+}
+
+/* Termékkép egységes magasság */
+.shoe-card .card-img-top {
+    height: 220px;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+}
+
+.shoe-card:hover .card-img-top {
+    transform: scale(1.08);
+}
+
+/* Márka badge a kártyán */
+.badge-brand {
+    display: inline-block;
+    font-size: 0.72rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background: #e8f5e9;
+    color: #00c853;
+    border-radius: 4px;
+    padding: 3px 10px;
+}
+
+/* Ár kiemelés */
+.price {
+    font-size: 1.25rem;
+    color: #00a844 !important;
+}
+
+/* Kosárba gomb */
+.btn-success {
+    background-color: #00c853;
+    border-color: #00c853;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    border-radius: 8px;
+    transition: background-color 0.2s, transform 0.15s;
+}
+
+.btn-success:hover {
+    background-color: #00a844;
+    border-color: #00a844;
+    transform: scale(1.03);
+}
+
+/* ---- LÁBLÉC ---- */
+footer {
+    border-top: 3px solid #00c853;
+}
+
+/* ---- RESZPONZÍV FINOMHANGOLÁS ---- */
+@media (max-width: 576px) {
+    .hero-section {
+        padding: 90px 0 60px;
+    }
+
+    .hero-title {
+        font-size: 2rem;
+    }
+
+    .hero-sub {
+        font-size: 0.95rem;
+    }
+}
