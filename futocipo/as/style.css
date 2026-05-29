@@ -1,0 +1,47 @@
+/* Hero szekció gradient háttér */
+.bg-gradient {
+    background: linear-gradient(135deg, #00c853 0%, #00b0ff 100%);
+}
+
+.hero-section {
+    padding-top: 100px;
+    padding-bottom: 60px;
+}
+
+/* Termékkártya stílusok */
+.shoe-card {
+    transition: all 0.3s ease;
+    border: none;
+    overflow: hidden;
+}
+
+.shoe-card:hover {
+    transform: translateY(-12px) scale(1.04);
+    box-shadow: 0 20px 30px rgba(0, 200, 83, 0.3) !important;
+}
+
+/* Termékkép animáció */
+.shoe-card img {
+    height: 220px;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+}
+
+.shoe-card:hover img {
+    transform: scale(1.08);
+}
+
+/* Body beállítás a fixed navbar miatt */
+body {
+    padding-top: 56px;
+}
+
+/* Gomb hover effektus */
+.btn-success {
+    transition: all 0.3s ease;
+}
+
+.btn-success:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0, 200, 83, 0.4);
+}
